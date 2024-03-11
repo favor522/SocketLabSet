@@ -1,0 +1,5 @@
+﻿  Socketclient.cpp
+C:\Users\favor\OneDrive\Рабочий стол\C++\SocketLabSet\Sockets\Sockets\Socketclient.cpp(14,12): error C2440: инициализация: невозможно преобразовать "initializer list" в "int"
+  C:\Users\favor\OneDrive\Рабочий стол\C++\SocketLabSet\Sockets\Sockets\Socketclient.cpp(14,12):
+  Инициализатор содержит слишком много элементов
+  
