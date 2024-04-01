@@ -5,10 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2C60FEE1-AB62-4259-BC00-352303032745}|Sockets\\Sockets.vcxproj|C:\\Users\\favor\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\C\u002B\u002B\\SocketLabSet\\Sockets\\Sockets\\Socketserver.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{2C60FEE1-AB62-4259-BC00-352303032745}|Sockets\\Sockets.vcxproj|solutionrelative:Sockets\\Socketserver.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C60FEE1-AB62-4259-BC00-352303032745}|Sockets\\Sockets.vcxproj|C:\\Users\\favor\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\C\u002B\u002B\\SocketLabSet\\Sockets\\Sockets\\Socketclient.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2C60FEE1-AB62-4259-BC00-352303032745}|Sockets\\Sockets.vcxproj|solutionrelative:Sockets\\Socketclient.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,22 +24,9 @@
               "RelativeDocumentMoniker": "Sockets\\Socketserver.cpp",
               "ToolTip": "C:\\Users\\favor\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\C\u002B\u002B\\SocketLabSet\\Sockets\\Sockets\\Socketserver.cpp",
               "RelativeToolTip": "Sockets\\Socketserver.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAACAAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-11T22:14:45.842Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Socketclient.cpp",
-              "DocumentMoniker": "C:\\Users\\favor\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\C\u002B\u002B\\SocketLabSet\\Sockets\\Sockets\\Socketclient.cpp",
-              "RelativeDocumentMoniker": "Sockets\\Socketclient.cpp",
-              "ToolTip": "C:\\Users\\favor\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\C\u002B\u002B\\SocketLabSet\\Sockets\\Sockets\\Socketclient.cpp",
-              "RelativeToolTip": "Sockets\\Socketclient.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-11T22:14:36.858Z",
+              "WhenOpened": "2024-04-01T20:08:34.463Z",
               "EditorCaption": ""
             }
           ]
