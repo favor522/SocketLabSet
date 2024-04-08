@@ -1,2 +1,3 @@
 ﻿  Socketserver.cpp
+C:\Users\favor\OneDrive\Рабочий стол\C++\SocketLabSet\Sockets\Sockets\Socketserver.cpp(39,21): warning C4838: Преобразование из "int" в "char" требует сужающего преобразования.
   Sockets.vcxproj -> C:\Users\favor\OneDrive\Рабочий стол\C++\SocketLabSet\Sockets\x64\Debug\Sockets.exe
