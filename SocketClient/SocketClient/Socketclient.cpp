@@ -8,23 +8,25 @@ using namespace std;
 #pragma warning(disable: 4996)
 
 int main() {
-	SOCKADDR_IN address;
-	address.sin_addr.s_addr = inet_addr("127.0.0.1");
-	address.sin_port = htons(27015);
-	address.sin_family = AF_INET;
 	WSADATA wsaData;
-	int result = WSAStartup(MAKEWORD(2, 2), &wsaData);
+	int result = WSAStartup(MAKEWORD(2, 1), &wsaData);
 	if (result != 0) {
 		cout << "WSAStartup failed with error: " << result << endl;
 		return 1;
 	}
-	SOCKET Connection = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
-	if (connect(Connection, (SOCKADDR*)&address, sizeof(address)) != 0) {
+	SOCKADDR_IN addr;
+	addr.sin_addr.s_addr = inet_addr("127.0.0.1");
+	addr.sin_port = htons(27015);
+	addr.sin_family = AF_INET;
+
+	SOCKET Connection = socket(AF_INET, SOCK_STREAM, NULL);
+	if (connect(Connection, (SOCKADDR*)&addr, sizeof(addr)) != 0) {
 		cout << "Connection failed" << "\n";
 		return 1;
 	}
-		cout << "Connection success";
-		char text = recv(Connection, msg, sizeof(msg), NULL);
-		cout << text << "\n";
+		cout << "Connection success" << "\n";
+		char msg[256];
+		recv(Connection, msg, sizeof(msg), NULL);
+		cout << msg << "\n";
 	return 0;
 }
