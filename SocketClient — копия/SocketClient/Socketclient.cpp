@@ -26,10 +26,7 @@ int main() {
 	}
 		cout << "Connection success" << "\n";
 		char msg[256];
-		char pos[256];
 		recv(Connection, msg, sizeof(msg), NULL);
 		cout << msg << "\n";
-		recv(Connection, pos, sizeof(pos), NULL);
-		cout << "Your position is: " << pos << "\n";
 	return 0;
 }
